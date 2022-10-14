@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""Class square"""
 
 Class Square:
-
+    """Represents square attributes __size (int): size of square"""
     def __init__(self, size=0):
         if type(size) is not int:
             raise TypeError("size must be an integer")
