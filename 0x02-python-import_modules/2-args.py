@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def print_arg_ke(argv):
+def print_arg(argv):
     n = len(argv) - 1
     if n == 0:
         print("{:d} argument.".format(n))
@@ -14,4 +14,4 @@ def print_arg_ke(argv):
 
 if __name__ == "__main__":
     import sys
-    print_arg_ke(sys.argv)
+    print_arg(sys.argv)
