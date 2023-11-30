@@ -11,6 +11,7 @@ def print_arg_ke(argv):
         while i <= n:
             print("{:d}: {:s}".format(i, argv[i]))
             i += 1
+        return
     else:
         if n > 1:
             print("{:d} arguments:".format(n))
