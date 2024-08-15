@@ -1,4 +1,4 @@
-# 100-relationship_states_cities.py
+#!/usr/bin/python3
 
 import sys
 from sqlalchemy import create_engine

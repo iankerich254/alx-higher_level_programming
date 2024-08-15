@@ -1,4 +1,4 @@
-# 14-model_city_fetch_by_state.py
+#!/usr/bin/python3
 
 import sys
 from sqlalchemy import create_engine
